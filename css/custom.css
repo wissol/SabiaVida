@@ -1,0 +1,42 @@
+.jumbotron li{font-size:21px}.jumbotron p{margin-bottom:0}.jumbotron .lead{font-size:1.75em;margin-bottom:.5em}.lead{margin-top:3em}p{margin-bottom:0;margin-top:0}p + p{text-indent:1rem}p + figure{margin-top:3rem}figure + p{margin-top:3rem}ol + figure{margin-top:3rem}figure{margin:0 auto}.jumbotron{background-color:#FFF}img{border:none}img + p{text-indent:-1em}h1:first-of-type{margin-top:7rem}.post_title{text-transform:uppercase}h4{font-size:1.5em}h2,h3,h4{font-weight:700}h2,h3{margin-bottom:2em;margin-top:3em}h4,h5,h6{margin-bottom:1em;margin-top:2em}#meta{margin-top:9rem}#meta li{margin-bottom:1rem}figcaption{margin-top:-.5em;margin-left:1em}figcaption:before{content:"\2014\2009"}q:before{content:"\201C\2009"}q:after{content:"\2009\201D"}cite{font-variant:small-caps}
+figcaption{margin-top: 1rem;}
+dl {
+    padding: 0.5em;
+  }
+  dt {
+    float: left;
+    clear: left;
+    width: 100px;
+    text-align: right;
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+  dt:after {
+    content: ":";
+  }
+  dd {
+    margin: 0 0 0 110px;
+    padding: 0 0 0.5em 0;
+    font-size: 1.25em;
+  }
+
+  #menu-item-10935 {
+    display: none;
+  }
+
+ul {
+   margin-top:2rem;}
+
+.resumen {
+    width:80%;
+    margin: auto;
+    padding-bottom: 1.5em;
+}
+
+.resumen::before{
+    content:'Resumen';
+    display:block;
+    margin-bottom:.5em;
+    text-align:center;
+    font-weight:700
+}
